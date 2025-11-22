@@ -4,19 +4,14 @@
   box-sizing: border-box;
 }
 
-ul,
-li {
-  list-style: none;
-}
-
 html {
   font-family: "Nunito", sans-serif;
   font-size: 62.5%;
 }
 
-
+/* SUPERINFO */
 .superinfo-bg {
-  background-color: #122AB2;
+  background-color: #122ab2;
 }
 .superinfo {
   display: flex;
@@ -24,4 +19,44 @@ html {
 
   max-width: 95rem;
   margin: 0 auto;
+  padding: 1rem 0;
+}
+.superinfo p {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.superinfo a {
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HEADER */
+.menu-bg {
+  background-color: #2c70ff;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 95rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.menu .menu-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3.6rem;
+}
+.menu nav ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.menu nav li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
 }
