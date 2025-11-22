@@ -21,26 +21,44 @@ body {
   color: #222;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* SUPERINFO */
 .superinfo-bg {
   background-color: #122ab2;
+  color: #fff;
 }
 .superinfo {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   max-width: 95rem;
   margin: 0 auto;
   padding: 1rem 0;
 }
 .superinfo p {
-  color: #fff;
   font-size: 1.6rem;
 }
 .superinfo a {
   font-size: 1.6rem;
   color: #fff;
   text-decoration: none;
+}
+.superinfo p,
+.superinfo a {
+  margin: 0 1rem;
 }
 
 /* HEADER */
