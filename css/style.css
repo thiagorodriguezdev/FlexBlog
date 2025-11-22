@@ -161,6 +161,7 @@ img {
 .produtos-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .produtos-item {
@@ -170,51 +171,74 @@ img {
 
 .produtos-item h2 {
   font-size: 4.8rem;
-  color: #A4A4A4;
-  background-color: #F7F7F7;
+  color: #a4a4a4;
+  background-color: #f7f7f7;
   padding: 4rem 2rem;
 }
 
 .purple {
-  border-top: .8rem solid #ae81ff;
+  border-top: 0.8rem solid #ae81ff;
 }
 
 .pink {
-  border-top: .8rem solid #F9265E;
+  border-top: 0.8rem solid #f9265e;
 }
 
 .blue {
-  border-top: .8rem solid #66D9EB;
+  border-top: 0.8rem solid #66d9eb;
 }
 
+/* PREÇO */
+
 .preco {
-  background-color: #F7F7F7;
-  padding: 40px;
+  background-color: #f7f7f7;
+  padding: 6rem;
 
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .preco-item {
-  border: 2px solid #FFF;
-  margin: 0 10px;
   flex: 1;
-  text-align: center;
-  padding: 2rem 6rem;
+  border: .4rem solid #fff;
+
+  margin: 1rem;
+  padding: 20px;
 }
 
 .preco-item h2 {
   font-size: 4.8rem;
-  color: #A4A4A4;
-  border-bottom: 2px solid #fff;
+  color: #a4a4a4;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .preco-item span {
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
   font-size: 4.8rem;
   font-weight: bold;
-  border-bottom: 2px solid #fff;
+  padding: 1rem 0 .5rem 0;
+  border-top: .4rem solid #fff;
+  border-bottom: .4rem solid #fff;
 }
 
-.preco-item li {
-  font-size: 20px;
+.preco-item sup {
+  font-size: 2.4rem;
+}
+
+.preco-item ul {
+  max-width: 30rem;
+  margin: 2rem auto;
+  font-size: 2rem;
+  line-height: 2;
+  font-style: italic;
+}
+
+.preco-item li::after {
+  content: "";
+  
 }
