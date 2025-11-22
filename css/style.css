@@ -13,3 +13,15 @@ html {
   font-family: "Nunito", sans-serif;
   font-size: 62.5%;
 }
+
+
+.superinfo-bg {
+  background-color: #122AB2;
+}
+.superinfo {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 95rem;
+  margin: 0 auto;
+}
