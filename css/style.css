@@ -60,3 +60,28 @@ html {
   font-size: 2rem;
   color: #fff;
 }
+
+.introducao {
+  max-width: 95rem;
+  margin: 0 auto;
+
+  font-size: 4.8rem;
+  padding: 5rem 0;
+}
+
+.section-1 {
+  max-width: 95rem;
+  margin: 0 auto;
+
+  padding: 60px 0;
+  border-top: 4px solid #2C70FF;
+}
+
+.section-1 .sobre-titulo {
+  font-size: 4.8rem;
+  padding-bottom: 4rem;
+}
+
+.section-1 .sobre-info {
+  display: flex;
+}
